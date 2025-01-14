@@ -8,6 +8,7 @@
 
 body{
     font-family: "Fira Sans", serif;
+    background: #F1F1F3;
 
 }
 
@@ -27,6 +28,27 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 display: inline-block;
+
+}
+.section-heading-text{
+    color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text-primary{
+    color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+a{
+    text-decoration: none;
 }
 
 nav{
@@ -78,4 +100,41 @@ margin-top: 20px;
     line-height: normal;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+.pillars-of-bangladesh{
+    margin: 80px 0 0 0;
+}
+
+.pillars-container{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+
+}
+.pillars-card{
+    display: flex;
+width: 302px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+transition: 0.5s;
+}
+.pillars-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+.pillars-title{
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
 }
